@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&display=swap");
+.textos{
+   
+}
+.titulo{
+    margin-bottom: 20px;
+    font-family: 'Noto Sans' sans-serif;
+    font-size: 40px;
+}
+
+.p{
+    font-size: 18px;
+    font-family: 'Noto Sans' sans-serif;
+    font-weight: 500;
+    color: #8b8b8b;
+}
+.Button {
+   border-radius: 0px; 
+   font-family: 'Noto Sans' sans-serif;
+   font-weight: 700;
+   height: 50px;
+   /*DISTINTO BODY AZUL*/
+   background-color: transparent;
+   border: 1px solid white;
+   color: white;
+   transition: .5s ease;
+  }
+
+.Button:hover{
+    /*background-color:#575757;*/
+    /*DISTINTO COLO BODY*/
+    background-color:rgb(37, 37, 37);
+    transform: translateY(-2px);
+}
+.contieneTitulo{
+    margin-top: 200px;
+    margin-bottom: 140px;
+}
+

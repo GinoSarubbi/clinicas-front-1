@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
+.nav {
+  box-shadow: none;
+}
+
+.titulo {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  /*DISTINTO  BODY */
+  color: white;
+}
+.icon {
+  font-size: 40px;
+  /*DISITNTO BODU*/
+  color: white;
+}
+
