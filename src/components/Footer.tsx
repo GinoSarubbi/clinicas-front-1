@@ -29,7 +29,7 @@ export default function Footer() {
                 </Box>
             </Grid>
 
-            <Grid item xs ={12} sm={4}>
+            <Grid item xs ={12} sm={4} >
              <Box className={estilos.redes}>Redes Sociales</Box>
                 <Box className={estilos.contenedorRedes} >
                    <FacebookIcon className={estilos.logos}/>

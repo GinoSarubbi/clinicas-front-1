@@ -1,6 +1,4 @@
-.container {
- 
-}
+
 
 .main {
   min-height: 100vh;
@@ -118,10 +116,34 @@
 .empiezaDonar{
   font-size: 40px;
   margin-bottom: 90px;
-  border-bottom: 1px solid rgb(88, 88, 88);
+  border-bottom: 1px solid rgb(79, 90, 241);
+  color:rgb(8, 8, 8);
   
 }
 
 
 
-/*TARJETAS DEL MAIN*/
+/*PALETA DE COLORES*/
+
+.root{
+  --color-primary: #ffffff
+  --color-secundario: #202020
+  --color-tercero: #747474
+  
+}
+
+.color-primario{
+  background-color: #ffffff;
+
+}
+
+.color-secundario{
+  background-color: #202020;
+}
+
+.color-tercero{
+  background-color: #747474;
+}
+
+/*SCROLL DE LA PAGINA */
+ 

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
 /*.Card{
     margin: 50px;
     justify-content: center;
@@ -9,69 +9,36 @@
     
   }*/
   .carta{
-    font-family: 'Lato', sans-serif;
     border: none;
-    box-shadow: none;
-    border-radius: 15;
     margin: 30px;
-    background-color: rgb(230, 98, 98);
-    color: white;
-    box-shadow: 0px 21px 25px -4px rgba(30,30,60,0.25);
-    transition: ease .5s;
+    background-color: transparent;
+    color: rgb(20, 20, 20);
+    transition: ease .1s;
     cursor: pointer;
+    box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
   }
   .carta:hover{
     transform: translateY(-2px);
-  }
-  .boton{
-    background-color: #303030;
-    font-family: 'Lato', sans-serif;
-    color: white;
-    width: 140px;
-    height: 40px;
-    border-radius: 0;
-    
-    /*DISTIONTO BODY AZUL*/
-    background-color: #161616;
-    transition: ease .5s;
-  }
-  .boton:hover{
-    background-color: #d6d6d6;
-    color: black;
-    transform: translateY(-2px);
-  }
-  .contenedorBoton{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .img{
-    border-radius: 5px;
-  }
-  /*
-  .cardbody{
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
    
   }
-  .cardtitle{
-    font-family: 'Noto Sans' sans-serif;
+ 
+  .boton{
+    background-color:#2d13a3;;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(235, 235, 235);
+    width: 140px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 0;
+    border: none;
+    transition: all .3s ease-in-out;
   }
-  */
-
-
-  .sangre {
-    background-color: rgb(223, 74, 74);
+  .boton:hover{
+    background-color: rgb(99, 73, 216);
   }
-  .plaquetas {
-    background-color: rgb(226, 199, 79);
+  .contenedorBoton{
+    justify-content: left;
+    padding-left: 16px;
   }
-  .plasma {
-    background-color: rgb(73, 115, 230);
-  }
-  

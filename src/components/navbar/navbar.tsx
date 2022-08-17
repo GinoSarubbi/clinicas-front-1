@@ -9,7 +9,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 import estilos from '../navbar/navbar.module.css'
 import {motion} from "framer-motion";
-import Menu from '../Menu/menu';
+import Menu from '../MenuAppBar/menu';
 
 
 const container = {
@@ -48,12 +48,27 @@ export default function navbar() {
     initial={{y: -20, opacity: 0}}
     animate ={{y: 0, opacity: 1}}
     transition={{duration: 0.5}}>
-        <Navbar className={estilos.nav} position = "static"  style={{backgroundColor: "transparent"}} >
+        <Navbar className={estilos.nav} position = "fixed"  style={{backgroundColor: " #2d13a3"}} >
             <Toolbar color="primary">
             <Typography  className={estilos.titulo} variant="h6" component="div" sx={{ flexGrow: 1 }}  >
             Hospital de clinicas
           </Typography>
-                <IconButton >
+          <Typography variant="h6" color="inherit" component="div" sx={{ display: { xs: 'none', sm: 'block' } }}>
+                <button className= {estilos.boton}>
+                    DONAR
+                </button>
+               </Typography>
+               <Typography variant="h6" color="inherit" component="div"  sx={{ display: { xs: 'none', sm: 'block' } }}>
+                <button className= {estilos.boton}>
+                    TURNOS
+                </button>
+               </Typography >
+               <Typography variant="h6" color="inherit" component="div"  sx={{ display: { xs: 'none', sm: 'block' } }}>
+                <button className= {estilos.boton}>
+                    RESGISTRATE
+                </button>
+               </Typography >
+                <IconButton className={estilos.iconoDeMenuBar}  sx={{ mr: 2, display: {sm: 'none'} }}>
      
                     <Menu />
                 </IconButton>

@@ -18,10 +18,13 @@ import Skeleton from '@mui/material/Skeleton'
 
 
 
+
+
+
 export default function tarjetasMain({ title, descripcion, imageSource}) {
   return (
 
-    <container className="contenidodecard" > 
+    <container className="contenidodecard"  > 
       <Card sx={{ maxWidth: 370 }}  className={estilos.carta} elevation={3}>
         <CardMedia className={estilos.img }
           component="img"
@@ -33,7 +36,7 @@ export default function tarjetasMain({ title, descripcion, imageSource}) {
           <Typography gutterBottom variant="h5" component="div">
             {title}
           </Typography>
-          <Typography variant="body1" color="white">
+          <Typography variant="body1" color="#8b8b8b;">
             {descripcion}
           </Typography>
         </CardContent>

@@ -2,7 +2,7 @@
 .footer {
   padding: 2rem 0;
  
-  background-color: rgb(27, 2, 87);
+  background-color: /*rgb(27, 2, 87)*/ #2d13a3;
   margin: 0;
   color: white;
 }
@@ -19,7 +19,7 @@
 }
 .contenedorClinicas {
   font-size: 18px;
-  color: #737373;
+  color: #949494;
   font-family: "Noto Sans" sans-serif;
   font-weight: 500;
 }
@@ -39,7 +39,7 @@
 
 .logos {
   font-size: 35px;
-  color: #737373;
+  color: #acacac;
   cursor: pointer;
   transition: .3s ease;
 }
